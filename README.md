@@ -14,7 +14,7 @@ To install this project, you have to run `npm install` in a terminal to install 
 
 To be able to use environment variables, this project makes use of (react-native-dotenv)[https://www.npmjs.com/package/react-native-dotenv]. You will have to create a `.env` file in the project's root and add any required variables you need. You will also have to tell TypeScript which variables did you add by editing `config/types/env.d.ts`. This last step is required for react-native-dotenv to work property with TypeScript.
 
-# Running the project
+## Running the project
 
 ```
 npm start # Run Metro server 
@@ -23,7 +23,7 @@ npm run ios # Run app on an IOS device or emulator
 npm run web # Run app on a browser
 ```
 
-# Tests
+## Tests
 
 This project uses `jest` and `react-test-renderer` for unit and snapshop testing.
 
