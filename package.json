@@ -12,7 +12,7 @@
     "format": "prettier --write \"src/{components,constants,hooks,navigation,screens}/**/*.{js,jsx,ts,tsx}\" \"config/**/*\"",
     "test:watch": "jest --watchAll",
     "test:cov": "jest --coverage",
-    "test": "jest",
+    "test": "jest --updateSnapshot",
     "prepare": "husky install"
   },
   "lint-staged": {
