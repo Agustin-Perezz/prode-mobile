@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> has 1 child 1`] = `
+<Text>
+  Hello World!
+</Text>
+`;
+
+exports[`<Landing /> Renders "Hello World" message 1`] = `
+<Text>
+  Hello World!
+</Text>
+`;
+
+exports[`<Landing /> Renders correctly 1`] = `
+<Text>
+  Hello World!
+</Text>
+`;
