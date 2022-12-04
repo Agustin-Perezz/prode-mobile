@@ -12,7 +12,7 @@ To install this project, you have to run `npm install` in a terminal to install 
 
 ## Environment Variables
 
-To be able to use environment variables, this project makes use of (react-native-dotenv)[https://www.npmjs.com/package/react-native-dotenv]. You will have to create a `.env` file in the project's root and add any required variables you need. You will also have to tell TypeScript which variables did you add by editing `config/types/env.d.ts`. This last step is required for react-native-dotenv to work property with TypeScript.
+To be able to use environment variables, this project makes use of [react-native-dotenv](https://www.npmjs.com/package/react-native-dotenv). You will have to create a `.env` file in the project's root and add any required variables you need. You will also have to tell TypeScript which variables did you add by editing `config/types/env.d.ts`. This last step is required for react-native-dotenv to work property with TypeScript.
 
 ## Running the project
 
@@ -25,7 +25,7 @@ npm run web # Run app on a browser
 
 ## Tests
 
-This project uses `jest` and `react-test-renderer` for unit and snapshop testing.
+This project uses [jest](https://github.com/facebook/jest) and [react-test-renderer](https://reactjs.org/docs/test-renderer.html) for unit and snapshop testing.
 
 ```
 test:watch # Run tests and keep watching for changes.
